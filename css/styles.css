@@ -7,12 +7,12 @@ body {
 
 .post {
     background-color: white;
-    width: 60%;
+    width: 28%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 110px;
-    margin-bottom: 100px;
+    margin-top: 3em;
+    margin-bottom: 3em;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -21,32 +21,40 @@ body {
       "wdth" 100;
 }  
 
-.post-header, post-icons {
+.post-header {
     display: flex;
-    font-size:  x-large; 
-    margin-left: 15px;
+    font-size:  small; 
+    margin-left: 10px;
     margin-bottom: 10px;
  }
+ 
 
 .post-header div {
-    padding-right: 15px;
-    padding-top: 25px;
+    padding-top: 10px;
  }
 
  .rigoberto {
-    width: 90%;
+    width: 88%;
  }
 
 .post-body {
     margin: 1em;
-    font-size: 1.6em;
+    font-size: 0.7em;
     padding-bottom: 1em;
 }
 
-i:last-child {
-    float: right;
+.post-icons {
+display: flex;
+justify-content: space-between;
+padding-bottom: 1em;
+}
+
+.fa-brands {
     margin-right: 5px;
 }
+.fa-bookmark {
+    margin-left:7.5em;
+    }
 
 i {
     margin-right: 15px;   
@@ -57,3 +65,4 @@ img {
     width: 100%;
     height: auto;
 }
+
